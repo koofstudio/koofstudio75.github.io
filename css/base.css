@@ -61,14 +61,17 @@ body {
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
  }
-
 @font-face {
-	font-family: 'Pelagy';
-	src: url('../fonts/Pelagy.ttf');
-	
 	font-weight: normal;
 	font-style: normal;
+	font-family: 'KudryashevDisplay-Sans';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/KudryashevDisplay-Sans.eot') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
+
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
